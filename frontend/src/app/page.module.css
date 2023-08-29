@@ -1,0 +1,60 @@
+#nav {
+  width: 100%;
+  border-radius: 0.2rem;
+  /* box-shadow: 11px 11px 22px #a5a5a5, -11px -11px 22px #ffffff; */
+  -webkit-box-shadow: -1px 7px 5px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 7px 5px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 7px 5px -6px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  color: black;
+  margin-bottom: 5px;
+}
+
+#searchBar {
+  width: 400px;
+}
+
+#category {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+#link {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  padding-right: 1rem;
+  font-size: large;
+  font-weight: bold;
+}
+
+#link:hover {
+  color: blue;
+}
+
+/* layeredImage.module.css */
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: aqua;
+  overflow-x: hidden;
+}
+
+.content {
+  position: absolute;
+  color: black;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: large;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}

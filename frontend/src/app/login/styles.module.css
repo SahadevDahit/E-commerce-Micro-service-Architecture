@@ -1,0 +1,40 @@
+#main {
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+#form {
+    width: 35%;
+    border-radius: 0.3rem;
+    box-shadow: 11px 11px 22px #a5a5a5, -11px -11px 22px #ffffff;
+    background-color: white;
+    color: black;
+}
+
+#btnAuthSelect {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+#btnSubmit {
+    margin-top: 0.5rem;
+}
+
+#authComponent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+    height: 20rem;
+
+}
+
+#btnlinks {
+    justify-content: space-between;
+    padding-top: 10px;
+}

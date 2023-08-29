@@ -45,4 +45,4 @@ features
 Further feature remaining and will be in next commit
 
 1. Payment integration
-2. Deployment(CI/CD pipeline with docker and kuberneetes in cloud compputing)
+2. Deployment(CI/CD pipeline with docker and kuberneetes in cloud computing)
